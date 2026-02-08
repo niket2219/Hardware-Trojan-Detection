@@ -1,0 +1,74 @@
+{
+  "input_file": "HEROdata2.xlsx",
+  "rows_raw": 907,
+  "rows_after_dropna": 3026,
+  "low_variance_dropped": [
+    "Number of macros/black boxes",
+    "Macro/Black Box area",
+    "IO_Pad Internal Power",
+    "IO_Pad Switching Power",
+    "IO_Pad Leakage Power",
+    "IO_Pad Total Power",
+    "Memory Internal Power",
+    "Memory Switching Power",
+    "Memory Leakage Power",
+    "Memory Total Power",
+    "Black_Box Internal Power",
+    "Black_Box Switching Power",
+    "Black_Box Leakage Power",
+    "Black_Box Total Power",
+    "Clock_Network Internal Power",
+    "Clock_Network Leakage Power"
+  ],
+  "high_corr_dropped": [
+    "Number of nets",
+    "Number of cells",
+    "Number of combinational cells",
+    "Number of buf/inv",
+    "Combinational area",
+    "Buf/Inv area",
+    "Noncombinational area",
+    "Total cell area",
+    "Total Dynamic Power (mW)",
+    "Clock_Network Total Power",
+    "Register Internal Power",
+    "Register Switching Power",
+    "Register Leakage Power",
+    "Register Total Power",
+    "Sequential Switching Power",
+    "Sequential Total Power",
+    "Combinational Internal Power",
+    "Combinational Switching Power",
+    "Combinational Leakage Power",
+    "Combinational Total Power",
+    "Total Internal Power",
+    "Total Switching Power",
+    "Total Leakage Power",
+    "Total Total Power"
+  ],
+  "topk_features": [
+    "Cell Internal Power (mW)",
+    "Net Switching Power (mW)",
+    "Clock_Network Switching Power",
+    "Sequential Leakage Power",
+    "Sequential Internal Power",
+    "Number of ports",
+    "Cell Leakage Power (mW)",
+    "Number of references",
+    "Number of sequential cells"
+  ],
+  "train_shape_full": [
+    2118,
+    10
+  ],
+  "train_shape_topk": [
+    2118,
+    10
+  ],
+  "auc_rf_all_features": 1.0,
+  "auc_rf_topk_features": 1.0,
+  "pca_explained_variance_ratio": [
+    0.27008167138052247,
+    0.18862362260508764
+  ]
+}
